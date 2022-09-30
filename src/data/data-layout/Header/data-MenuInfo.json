@@ -1,0 +1,19 @@
+[
+	{
+		"path":"#about",
+		"nameLink":"HAKKIMIZDA"
+	},
+	{
+		"path":"#services",
+		"nameLink":""
+	},
+	
+	{
+		"path":"#roadmap",
+		"nameLink":"BİLGİLENDİRME"
+	},
+	{
+		"path":"#contact",
+		"nameLink":"İLETİŞİM"
+	}
+]

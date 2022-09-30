@@ -70,7 +70,7 @@ const HomeDemo1Container = () => {
         <div className="clearfix" />
         <SecAbout
           imgDwon={false}
-          title="HAKKIMIZDA"
+          title="Hakkımızda"
           text="Connect blockchain to the real world and start crypto tading."
           img={HomeDemo1About1}
         />

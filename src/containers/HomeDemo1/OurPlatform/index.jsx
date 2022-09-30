@@ -9,6 +9,7 @@ const OurPlatform = ({data}) => {
 
     return (
 
+      
       <section className="features section-padding-0-100 ">
         <div className="container">
 

@@ -6,7 +6,17 @@ const SecHeader = ({Logo , dropdownItem , MenuInfo}) => {
       <nav className="navbar navbar-expand-lg navbar-white fixed-top" id="banner">
         <div className="container">
           {/* Brand */}
-          <a className="navbar-brand" href="#"><span><img draggable="false" src={Logo} alt="logo"style={{width:"18%"}} /></span></a>
+          <a className="navbar-brand" href="#">
+            <span >
+              <img draggable="false" src={Logo} alt="logo"style={{width:"8%"}} />
+            </span>
+            <a href="#">
+              Saymatik
+            </a>
+            <a  href="#">
+              .com
+            </a>
+          </a>
           {/* Toggler/collapsibe Button */}
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
@@ -28,7 +38,7 @@ const SecHeader = ({Logo , dropdownItem , MenuInfo}) => {
                   <a className="nav-link" href={item.path}>{item.nameLink}</a>
                 </li>
               ))}
-              <li className="lh-55px"><a href="/giris" className="btn login-btn ml-50">Giriş</a></li>
+              <li className="lh-55px"><a href="/giris" className="btn login-btn ml-50">Sign Up</a></li>
             </ul>
           </div>
         </div>

@@ -1,19 +1,20 @@
 [
 	{
 		"path":"#about",
-		"nameLink":"HAKKIMIZDA"
+		"nameLink":"Wallet"
 	},
 	{
 		"path":"#services",
-		"nameLink":""
+		"nameLink":"Exchanage"
 	},
 	
 	{
 		"path":"#roadmap",
-		"nameLink":"BİLGİLENDİRME"
+		"nameLink":"Explorer"
 	},
 	{
 		"path":"#contact",
-		"nameLink":"İLETİŞİM"
+		"nameLink":"Institutional"
 	}
+	
 ]

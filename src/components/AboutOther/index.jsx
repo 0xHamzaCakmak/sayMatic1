@@ -14,9 +14,9 @@ const AboutOther = ({ClassTitle="gradient-text blue"}) => {
               <div className="dream-dots text-left fadeInUp" data-aos="fade-up" data-aos-delay="200">
                {/*  <span className={ClassTitle}>BLOKZİNCİR BELGELENDİRME SİSTEMİ</span> */}
               </div>
-              <h4 className="fadeInUp" data-aos="fade-up" data-aos-delay="200">Belgelerinizi Ölümsüzleştirelim</h4>
-              <p className="fadeInUp" data-aos="fade-up" data-aos-delay="200">Belgenizi blokznicire yükleyin istediğniz zaman erişim sağlayın.Kripto cüzdan adresden isterseniz herkese açık yapın isterseniz gizleyin sadece siz görün.</p>
-              <p className="fadeInUp" data-aos="fade-up" data-aos-delay="300">Belgelerinizi bir tık ile ulaşın.</p>
+              <h4 className="fadeInUp" data-aos="fade-up" data-aos-delay="200">Kripto Varlıklarınızı Güvende Tutun</h4>
+              <p className="fadeInUp" data-aos="fade-up" data-aos-delay="200">Kripto varlıklarınızı saymatik cüzdana taşıyın. İstediğiniz zaman erişim sağlayın</p>
+              <p className="fadeInUp" data-aos="fade-up" data-aos-delay="300">Kripto Varlıklarınıza Bir Tık İle Ulaşın.</p>
               <a className="btn more-btn mt-30" href="#">DAHA FAZLA</a>
             </div>
           </div>

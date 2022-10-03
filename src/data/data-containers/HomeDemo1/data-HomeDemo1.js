@@ -76,11 +76,11 @@ export const SecTrustContent = [
 export const Services = [
     {
         img:HomeDemo1Feature1,
-        title:"İstediğiniz Zaman Belgelerinize Ulaşın."
+        title:"İstediğiniz Zaman Kripto Varlıklarınıza Ulaşın."
     },
     {
         img:HomeDemo1Feature2,
-        title:"Belgeler Blokzincirde"
+        title:"Varlıklarınız Blokzincirde"
     },
     {
         img:HomeDemo1Feature3,

@@ -16,7 +16,7 @@ const SpreadMap = ({Wwhitepaper , SectionIcon11}) => {
                 <img draggable="false" src={SectionIcon11} alt="" />
               </div>
               <h4 className="text-white">DETAYLI SUNUM</h4>
-              <p className="text-white">DeCerta'yı sunum şeklinde inceleyebilirsiniz.</p>
+              <p className="text-white">Saymatik'i detaylı sunum şeklinde inceleyebilirsiniz.</p>
               <a className="btn dream-btn mt-30" href="#">
                 WHİTEPAPER
               </a>

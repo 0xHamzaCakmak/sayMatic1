@@ -6,7 +6,7 @@ const OurBlog = ({data , ClassSpanTitle}) => {
 
       <section className="our_blog_area clearfix section-padding-100-0" id="blog">
         <div className="container">
-          {/* <div className="row">
+          <div className="row">
             <div className="col-12">
               <SectionHeading
              
@@ -15,7 +15,7 @@ const OurBlog = ({data , ClassSpanTitle}) => {
               />
 
             </div>
-          </div> */}
+          </div>
           <div className="row justify-content-center">
            
           </div>

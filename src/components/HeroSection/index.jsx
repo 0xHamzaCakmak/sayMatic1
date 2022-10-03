@@ -29,10 +29,23 @@ const SecHeroSection = ({
               <div className="welcome-content">
                 <div className="promo-section">
                 </div>
+                
                 <h1>SAYMATİK</h1>
                 <p className="w-text fadeInUp" data-wow-delay="0.3s"> You can store your crypto assets in your Saymatik wallet and use its many different features. </p>
                 <div className="dream-btn-group fadeInUp" data-wow-delay="0.4s">
                   <a href="#" className="btn more-btn mr-3">{link1}</a>
+                  <a href="#" className="btn more-btn mr-3">{link2}</a>
+
+
+                 {/*  <div>
+                    Containerler eklenecek. kripto adı ve fiyat bilgisi 
+                    <button>sdsds</button>
+                    <button>sdsds</button>
+                  </div> */}
+                  <div>
+                   
+
+                  </div>
                  {/*  <a href="#" className="btn more-btn">{link2}</a> */}
                 </div>
               </div>

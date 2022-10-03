@@ -13,7 +13,7 @@ const OurJoinUs = ({OurJoinUsFirst , OurJoinUsSecond}) => {
       <div className="container">
         <SectionHeading
           /* title="DECERTA BLOKZİNCİR TABANLI BELGELENDİRME" */
-          text="BELGE NASIL YÜKLENİR?"
+          text="SAYMATİK CÜZDAN NASIL KULLANILIR"
         />
         <div className="row dark-row pt-60">
           {OurJoinUsFirst && OurJoinUsFirst.map((item , key) => (

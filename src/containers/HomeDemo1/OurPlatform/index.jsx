@@ -21,8 +21,8 @@ const OurPlatform = ({data}) => {
           <div className="row align-items-center">
             <div className="service-img-wrapper col-lg-5 col-md-12 col-sm-12 no-padding-right">
               <div className="features-list">
-                <div className="who-we-contant">
-                  <h4 className="w-text" data-aos="fade-up" data-aos-delay="200">BELGELER BLOKZİNCİRDE</h4>
+                <div className="who-we-contant" >
+                  <h4  className="w-text" data-aos="fade-up" data-aos-delay="200">KRİPTO VARLIKLARINIZ SAYMATİK'DE</h4>
                   <p className="w-text" data-aos="fade-up" data-aos-delay="300"></p>
                 </div>
                 <ul className="list-marked">

@@ -40,10 +40,10 @@ const SecAbout = ({imgDwon=false , title , text , img}) => {
                     <div className="dream-dots text-left" data-aos="fade-up" data-aos-delay="300">
                       {/* <span className="gradient-text ">DECERTA BLOKZİNCİR TABANLI BELGELENDİRME</span> */}
                     </div>
-                    <h4 data-aos="fade-up" data-aos-delay="300">DeCerta NEDİR ?</h4>
-                    <p data-aos="fade-up" data-aos-delay="300">DeCerta blokzincir tabanlı bir belgelendirme sistemidir. Bireylerin kişisel kripto cüzdanlarında depolamak
-                     istedikleri kıymetli evraklar için modern teknolojiye uygun imkanlar sağlar. Belgelerinizi, diplomalarınızı, konferans veya kurs sertifikalarınızı, yasal belgelerinizi, ödül mektuplarınızı,
-                      gizli anlaşmalarınızı, tapularınızı, garanti belgelerinizi sonsuza kadar güvende tutmak için bir çözümdür.</p>
+                    <h4 data-aos="fade-up" data-aos-delay="300">Saymatik Nedir</h4>
+                    <p data-aos="fade-up" data-aos-delay="300">Saymatik, Farklı Blokzincir Ağlarını Destekleyen Bir Kripto Cüzdan Uygulamasıdır.
+                    Saymatik Cüzdanda tüm kripto varlıklarınızı saklayabilir, Ticaret yapabilir ve arkadaşlarınıza gönderebilirsiniz
+                    Saymatik cüzdanda Sertifi, diploma ve önemli belgelerinize ulaşım sağlayabilirsiniz. Saymatik cüzdan tüm SciMatic Ürünlerini destekler</p>
                    {/*  <p data-aos="fade-up" data-aos-delay="400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit ipsa ut quasi adipisci voluptates, voluptatibus aliquid alias beatae reprehenderit incidunt iusto laboriosam.</p> */}
                     <a className="btn more-btn mt-30" href="#">DAHA FAZLASI</a>
                   </div>

@@ -63,10 +63,14 @@ const HomeDemo1Container = () => {
           ClassDiv="col-12 col-lg-5 col-md-12 "
            specialHead="" 
           title="DECERTA"
-          link1="Whitepaper"
-          /* link2="Buy Token" */
+          link1="Get started"
+          link2="Log in" 
+          link3="Log in" 
+
           img={HomeDemo1Platform1}
         />
+        
+        
         <div className="clearfix" />
         <SecAbout
           imgDwon={false}

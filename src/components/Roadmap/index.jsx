@@ -7,10 +7,10 @@ const Roadmap = ({data , ClassSpanTitle}) => {
       <section className="roadmap section-padding-0-0" id="roadmap">
         <SectionHeading
           /* title="DECERTA BLOKZİNCİR TABANLI BELGENDİRME" */
-          text="KURUMLARIN BELGE YÜKLEME AŞAMASI"
+          /*text="KURUMLARIN BELGE YÜKLEME AŞAMASI"*/
           ClassSpanTitle={ClassSpanTitle}
         />
-        <div className="container">
+       {/*  <div className="container">
           <div className="row">
             <div className="col-md-12">
               <div className="main-timeline">
@@ -30,7 +30,7 @@ const Roadmap = ({data , ClassSpanTitle}) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     );
 

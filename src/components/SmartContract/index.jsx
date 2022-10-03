@@ -13,7 +13,7 @@ const SmartContract = ({data}) => {
                {/*    <span className="gradient-text blue">DECERTA BLOKZİNCİR TABANLI BELGELENDİRME</span> */}
                 </div>
                 <h4 className="fadeInUp" data-wow-delay="0.3s">ÜRÜN ÖZELLİKLERİ</h4>
-                <p className="fadeInUp" data-wow-delay="0.4s">DeCerta uygulaması 15 farklı dil seçeneği sunacak şekilde karneler, sertifikalar ve referanslara yönelik kıymetli evrakları cüzdan adresinizde depolama imkanı sunar. İş başvurusu gibi durumlarda belgelerin taşınması gerekmez, cüzdan adresin vermesi yeterli olacaktır. Belgeleri gerekli kontrolden sonra blokzincire müdür yada yetkili olan kişi yükleyebilir. Evrak sistemlerinde manipülasyonu engeller ve şeffaflık sağlar.</p>
+                <p className="fadeInUp" data-wow-delay="0.4s">Saymatik uygulaması 15 farklı dil seçeneği sunacak şekilde tasarlanmıştır. Kripto varlıklar, karneler, sertifikalar ve referanslara yönelik kıymetli evrakları cüzdan adresinizde depolama imkanı sunar. İş başvurusu gibi durumlarda belgelerin taşınması gerekmez, cüzdan adresin vermesi yeterli olacaktır. Belgeleri gerekli kontrolden sonra blokzincire müdür yada yetkili olan kişi yükleyebilir. Evrak sistemlerinde manipülasyonu engeller ve şeffaflık sağlar.</p>
                 <a className="btn more-btn mt-30 fadeInUp" data-wow-delay="0.6s" href="#">DAHA FAZLA</a>
               </div>
             </div>

@@ -24,10 +24,10 @@ const FooterHome = () => {
         <div className="container">
           <div className="row ">
             <div className="col-12 col-lg-4 col-md-6">
-              <div className="footer-copywrite-info">
-                <div className="copywrite_text fadeInUp" data-wow-delay="0.2s">
-                  <div className="footer-logo">
-                    <a href="#"><img draggable="false" src={FooterLogo} alt="logo" /> </a>
+              <div className="footer-copywrite-info"style={{height:"20%"}}>
+                <div className="copywrite_text fadeInUp" data-wow-delay="0.2s" >
+                  <div className="footer-logo" >
+                    <a href="#" ><img draggable="false" src={FooterLogo} alt="logo" /> </a>
                   </div>
                   <p></p>
                 </div>

@@ -764,6 +764,8 @@ ol {
 .login-btn {
     position: relative;
     z-index: 1;
+    font-weight: bold;
+    margin-top: 5px;
     color: #fff;
     font-size: 12px !important;
     text-transform: uppercase;
@@ -771,18 +773,18 @@ ol {
     padding: 0 20px;
     min-width: 100px;
     color: #fff !important;
-    background: rgba(116, 80,254,0.7);
+    
     height: 35px;
-    border-radius: 50px;
-    border: 1px solid #fff;
+    
+    border: 2px solid #fff;
     letter-spacing: 1px;
 }
 
 .login-btn:hover,
 .login-btn:focus {
     color: #fff;
-    background: #7450fe;
-    border-color: #7450fe;
+    background: #100733;
+    border-color: #937fe0;
 }
 
 .dream-btn {

@@ -43,6 +43,7 @@ import {
     HomeDemo1BlogImg3,
 
 } from '../../../utils/allImgs'
+import { useTranslation } from "react-i18next";
 
 export const SecTrustContent = [
     {
@@ -76,19 +77,19 @@ export const SecTrustContent = [
 export const Services = [
     {
         img:HomeDemo1Feature1,
-        title:"İstediğiniz Zaman Kripto Varlıklarınıza Ulaşın."
+        title:"You_can_access_your"
     },
     {
         img:HomeDemo1Feature2,
-        title:"Varlıklarınız Blokzincirde"
+        title:"Your_Assests_on"
     },
     {
         img:HomeDemo1Feature3,
-        title:"Blokzincir Teknolojsi"
+        title:"Blockchain_Technology"
     },
     {
         img:HomeDemo1Feature4,
-        title:"Belgeleriniz kripto cüzdan adresinizde"
+        title:"Your_Documents_are"
     },
     
    
@@ -97,12 +98,12 @@ export const Services = [
 export const SmartContractinfo = [
     {
         img:HomeDemo1FeaturesS1,
-        title:"SCIMATIC HYBRİT BLOKZİNCİR"
+        title:"SCIMATIC HYBRİT BLOCKCHAIN"
 
     },
     {
         img:HomeDemo1FeaturesS2,
-        title:" AKILLI SÖZLEŞME"
+        title:"SMART CONTRACT"
      
 
     },

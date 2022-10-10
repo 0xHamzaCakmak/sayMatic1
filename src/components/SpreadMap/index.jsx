@@ -1,5 +1,6 @@
+import { useTranslation } from "react-i18next";
 const SpreadMap = ({Wwhitepaper , SectionIcon11}) => {
-
+  const { t } = useTranslation();
   return (
 
     <section className="spread-map download">
@@ -15,10 +16,10 @@ const SpreadMap = ({Wwhitepaper , SectionIcon11}) => {
               <div className="dream-dots text-left">
                 <img draggable="false" src={SectionIcon11} alt="" />
               </div>
-              <h4 className="text-white">DETAYLI SUNUM</h4>
-              <p className="text-white">Saymatik'i detaylı sunum şeklinde inceleyebilirsiniz.</p>
+              <h4 className="text-white">{t("DETAILED_PRESENTATION")}</h4>
+              <p className="text-white">{t("You_can_examine")}</p>
               <a className="btn dream-btn mt-30" href="#">
-                WHİTEPAPER
+                {t("WHİTEPAPER")}
               </a>
             </div>
           </div>

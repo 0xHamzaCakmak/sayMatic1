@@ -1,9 +1,9 @@
 import SectionHeading from "../SectionHeading"
-
+import { useTranslation } from "react-i18next";
 
 
 const OurTeam = ({data , ClassSpanTitle}) => {
-
+  const {t} = useTranslation();
     return (
 
       <section className="our_team_area section-padding-100-0 clearfix" id="team">
@@ -12,7 +12,7 @@ const OurTeam = ({data , ClassSpanTitle}) => {
             <div className="col-12">
               <SectionHeading
               /*   title="DECERTA BLOKZİNCİR TABANLI BELGELENDİRME" */
-                text="EKİBİMİZ"
+                text={t("our_team")}
                 ClassSpanTitle={ClassSpanTitle}
               />
 

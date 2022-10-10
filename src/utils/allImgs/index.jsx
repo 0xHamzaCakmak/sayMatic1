@@ -393,9 +393,9 @@ import HomeDemo6Feature7 from "../../assets/img/features/feature-7.svg"
 import HomeDemo6Feature8 from "../../assets/img/features/feature-8.svg"
 
 
-import HeaderLogo from "../../assets/img/core-img/decertalogo.png"
+import HeaderLogo from "../../assets/img/core-img/sayMatiklogo.png"
 
-import FooterLogo from "../../assets/img/core-img/decertalogo.png"
+import FooterLogo from "../../assets/img/core-img/sayMatiklogo.png"
 
 import FooterPattern from "../../assets/img/core-img/pattern.png"
 

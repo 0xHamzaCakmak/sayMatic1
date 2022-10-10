@@ -1,7 +1,8 @@
 import SectionHeading from "../../../components/SectionHeading"
+import { useTranslation } from "react-i18next";
 
 const HowItWorks = ({data , ClassSpanTitle}) => {
-
+  const { t } = useTranslation();
     return (
 
       <section className="darky how section-padding-0-0" style={{paddingBottom: '70px'}}>

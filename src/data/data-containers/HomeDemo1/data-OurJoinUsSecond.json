@@ -5,21 +5,21 @@
         "ClassDown":"contribution-c-wapper has-arrow-left-lg has-arrow-bottom-md has-arrow-down-sm",
         "ClassSteps":"gradient-t green",
         "Steps":6,
-        "title":"Blokzincire saklanan belge ömür boyu saklanır."
+        "title":"Data_saved_in"
     },
     {
         "ClassTop":"col-12 col-md-6 col-lg-4 mt-30",
         "ClassDown":"contribution-c-wapper has-arrow-left-lg has-arrow-left-md has-arrow-down-sm",
         "ClassSteps":"gradient-t green",
         "Steps":5,
-        "title":"Kripto cüzdan adresiyle her yerde erişim sağlanır."
+        "title":"Send_Your_CryptoCurrencies"
     },
     {
         "ClassTop":"col-12 col-md-6 col-lg-4 mt-30",
         "ClassDown":"contribution-c-wapper ",
         "ClassSteps":"gradient-t pink",
         "Steps":4,
-        "title":"Açık olanı seçtiyse cüzdan adresinden herkes görebilir."
+        "title":"You_can_see_your"
     }
 
 ]

@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next";
+
 const SecHeroSection = ({
       ClassSec="",
       ClassDiv="",
@@ -10,16 +12,8 @@ const SecHeroSection = ({
       HomeDemo1Or4Or5Or6=true,
 
     }) => {
-
-      // AbsoImgInfo="",
-      // AddWrapper=false,
-      // HomeDemo1=false,
-      // HomeDemo2=false,
-      // HomeDemo3=false,
-      // HomeDemo4=false,
-      // HomeDemo5=false,
-      // HomeDemo6=false
-
+      const { t } = useTranslation();
+     // {t("Saymatik")}
   return (
     <section className={ClassSec} id="home">
       <div className="hero-section-content">
@@ -30,8 +24,8 @@ const SecHeroSection = ({
                 <div className="promo-section">
                 </div>
                 
-                <h1>SAYMATİK</h1>
-                <p className="w-text fadeInUp" data-wow-delay="0.3s"> You can store your crypto assets in your Saymatik wallet and use its many different features. </p>
+                <h1>{t("Saymatik")}</h1>
+                <p className="w-text fadeInUp" data-wow-delay="0.3s"> {t("you_can_store")} </p>
                 <div className="dream-btn-group fadeInUp" data-wow-delay="0.4s">
                   <a href="#" className="btn more-btn mr-3">{link1}</a>
                   <a href="#" className="btn more-btn mr-3">{link2}</a>

@@ -4,14 +4,14 @@
         "ClassDown":"contribution-c-wapper has-arrow-right-lg has-arrow-top-md has-arrow-right-md has-arrow-down-sm",
         "ClassSteps":"gradient-t orange",
         "Steps":1,
-        "title":"Kişi kripto cüzdan adresiyle giriş yapar.Belgeyi seçer."
+        "title":"Down_Coun"
     },
     {
         "ClassTop":"col-12 col-md-6 col-lg-4 mt-sm-30",
         "ClassDown":"contribution-c-wapper has-arrow-right-lg has-arrow-bottom-md has-arrow-down-sm",
         "ClassSteps":"gradient-t pink",
         "Steps":2,
-        "title":"Belge için gizli ve açık olarak seçenek sunar."
+        "title":"Create_a_new"
     },
     {
        
@@ -19,7 +19,7 @@
         "ClassDown":"contribution-c-wapper has-arrow-top-md has-arrow-down-sm",
         "ClassSteps":"gradient-t blue",
         "Steps":3,
-        "title":"Gizli olanı seçerse belgeyi sadece kendi görebilir."
+        "title":"get_some_crypto"
     }
 
 ]

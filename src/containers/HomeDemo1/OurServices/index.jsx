@@ -1,17 +1,18 @@
 import SectionHeading from "../../../components/SectionHeading"
 
 import Service from "./Service"
-
+import { useTranslation } from "react-i18next";
 
 const OurServices = ({data}) => {
 
+  const {t} = useTranslation();
     return (
 
       <section className="our_services_area section-padding-0-0 clearfix">
         <div className="container">
           <SectionHeading
             /* title="DECERTA BLOKZİNCİR TABANLI BELGELENDİRME SİSTEMİ" */
-            text="BELGELERİNİZ HEP SİZİNLE"
+            text={t("Your_crypto_assests")}
           />
 
           <div className="row">
@@ -19,7 +20,7 @@ const OurServices = ({data}) => {
               <Service
                 key={key}
                 img={item.img}
-                title={item.title}
+                title={t (item.title)}
               />
             ))}
           </div>

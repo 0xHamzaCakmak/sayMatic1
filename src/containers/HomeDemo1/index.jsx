@@ -48,8 +48,9 @@ import JoinUs from './JoinUs'
 import SecTrust from './SecTrust'
 import OurServices from "./OurServices"
 import OurPlatform from "./OurPlatform"
-
+import { useTranslation } from "react-i18next";
 const HomeDemo1Container = () => {
+  const { t } = useTranslation();
 
     useEffect(() => {
       addRemoveClassBody('darker')
@@ -57,14 +58,14 @@ const HomeDemo1Container = () => {
 
     return (
       <div>
-        <Header Title="DeCerta" />
+        <Header Title="Saymatik" />
         <SecHeroSection
           ClassSec="hero-section moving section-padding"
           ClassDiv="col-12 col-lg-5 col-md-12 "
            specialHead="" 
-          title="DECERTA"
-          link1="Get started"
-          link2="Log in" 
+          title="SAYMATIK"
+          link1={t("get_started")}
+          link2={t("log_in")} 
           link3="Log in" 
 
           img={HomeDemo1Platform1}

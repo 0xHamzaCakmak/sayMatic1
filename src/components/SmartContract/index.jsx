@@ -1,6 +1,8 @@
 import Contract from "./Contract"
+import { useTranslation } from "react-i18next";
 
 const SmartContract = ({data}) => {
+  const { t } = useTranslation();
 
     return (
 
@@ -12,9 +14,9 @@ const SmartContract = ({data}) => {
                 <div className="dream-dots text-left fadeInUp" data-wow-delay="0.2s">
                {/*    <span className="gradient-text blue">DECERTA BLOKZİNCİR TABANLI BELGELENDİRME</span> */}
                 </div>
-                <h4 className="fadeInUp" data-wow-delay="0.3s">ÜRÜN ÖZELLİKLERİ</h4>
-                <p className="fadeInUp" data-wow-delay="0.4s">Saymatik uygulaması 15 farklı dil seçeneği sunacak şekilde tasarlanmıştır. Kripto varlıklar, karneler, sertifikalar ve referanslara yönelik kıymetli evrakları cüzdan adresinizde depolama imkanı sunar. İş başvurusu gibi durumlarda belgelerin taşınması gerekmez, cüzdan adresin vermesi yeterli olacaktır. Belgeleri gerekli kontrolden sonra blokzincire müdür yada yetkili olan kişi yükleyebilir. Evrak sistemlerinde manipülasyonu engeller ve şeffaflık sağlar.</p>
-                <a className="btn more-btn mt-30 fadeInUp" data-wow-delay="0.6s" href="#">DAHA FAZLA</a>
+                <h4 className="fadeInUp" data-wow-delay="0.3s">{t("PRODUCT_FEATURES")}</h4>
+                <p className="fadeInUp" data-wow-delay="0.4s"> {t("Saymatik_app_is_design")}</p>
+                <a className="btn more-btn mt-30 fadeInUp" data-wow-delay="0.6s" href="#">{t("More")}</a>
               </div>
             </div>
             <div className="col-12 col-lg-6 offset-lg-0 mt-s">

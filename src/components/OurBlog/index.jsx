@@ -10,7 +10,7 @@ const OurBlog = ({data , ClassSpanTitle}) => {
             <div className="col-12">
               <SectionHeading
              
-                text="HABERLER"
+              
                 ClassSpanTitle={ClassSpanTitle}
               />
 

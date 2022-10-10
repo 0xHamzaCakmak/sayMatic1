@@ -3,19 +3,21 @@ import {HomeDemo1JoinBottom} from "../../../utils/allImgs"
 import SectionHeading from "../../../components/SectionHeading"
 
 import Join from "./Join"
-
+import { useTranslation } from "react-i18next";
 
 const OurJoinUs = ({OurJoinUsFirst , OurJoinUsSecond}) => {
-
+  const { t } = useTranslation();
   return (
 
     <section className="join-us section-padding-0-100 clearfix" id="services">
       <div className="container">
+        
         <SectionHeading
           /* title="DECERTA BLOKZİNCİR TABANLI BELGELENDİRME" */
-          text="SAYMATİK CÜZDAN NASIL KULLANILIR"
+          text={t("How_to_saymatik")}
         />
         <div className="row dark-row pt-60">
+          
           {OurJoinUsFirst && OurJoinUsFirst.map((item , key) => (
             <Join
               key={key}
@@ -23,7 +25,7 @@ const OurJoinUs = ({OurJoinUsFirst , OurJoinUsSecond}) => {
               ClassDown={item.ClassDown}
               ClassSteps={item.ClassSteps}
               Steps={item.Steps}
-              title={item.title}
+              title={t(item.title)}
             />
           ))}
           <div className="col-lg-4 hidden-md hidden-sm hidden-xs text-center">
@@ -45,9 +47,10 @@ const OurJoinUs = ({OurJoinUsFirst , OurJoinUsSecond}) => {
               ClassDown={item.ClassDown}
               ClassSteps={item.ClassSteps}
               Steps={item.Steps}
-              title={item.title}
+              title={t(item.title)}
             />
           ))}
+          
         </div>
       </div>
     </section>

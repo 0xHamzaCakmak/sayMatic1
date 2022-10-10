@@ -1,5 +1,6 @@
+import { useTranslation } from "react-i18next";
 const SecAbout = ({imgDwon=false , title , text , img}) => {
-
+  const { t } = useTranslation();
   return (
     <>
       {imgDwon ? (
@@ -40,12 +41,10 @@ const SecAbout = ({imgDwon=false , title , text , img}) => {
                     <div className="dream-dots text-left" data-aos="fade-up" data-aos-delay="300">
                       {/* <span className="gradient-text ">DECERTA BLOKZİNCİR TABANLI BELGELENDİRME</span> */}
                     </div>
-                    <h4 data-aos="fade-up" data-aos-delay="300">Saymatik Nedir</h4>
-                    <p data-aos="fade-up" data-aos-delay="300">Saymatik, Farklı Blokzincir Ağlarını Destekleyen Bir Kripto Cüzdan Uygulamasıdır.
-                    Saymatik Cüzdanda tüm kripto varlıklarınızı saklayabilir, Ticaret yapabilir ve arkadaşlarınıza gönderebilirsiniz
-                    Saymatik cüzdanda Sertifi, diploma ve önemli belgelerinize ulaşım sağlayabilirsiniz. Saymatik cüzdan tüm SciMatic Ürünlerini destekler</p>
+                    <h4 data-aos="fade-up" data-aos-delay="300">{t("what_is_saymatik")}</h4>
+                    <p data-aos="fade-up" data-aos-delay="300">{t("Saymatik_is_crypto")}</p>
                    {/*  <p data-aos="fade-up" data-aos-delay="400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit ipsa ut quasi adipisci voluptates, voluptatibus aliquid alias beatae reprehenderit incidunt iusto laboriosam.</p> */}
-                    <a className="btn more-btn mt-30" href="#">DAHA FAZLASI</a>
+                    <a className="btn more-btn mt-30" href="#">{t("More")}</a>
                   </div>
                 </div>
               </div>

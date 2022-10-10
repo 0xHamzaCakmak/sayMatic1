@@ -15,14 +15,10 @@ const Faq = ({data , ClassSpanTitle}) => {
             text="NEDEN DECERTAA"
             ClassSpanTitle={ClassSpanTitle}
           /> */}
-          <br />
-          <br />
-          <br />
-          <br />
+         
 
           <div className="row align-items-center">
             <div className="col-12 col-lg-6 offset-lg-0 col-md-8 offset-md-2 col-sm-12">
-              <img draggable="false" src={HomeDemo1Faq} alt="" className="center-block img-responsive" />
             </div>
             <div className="col-12 col-lg-6 col-md-12">
               <div className="dream-faq-area mt-s ">

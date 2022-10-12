@@ -73,6 +73,7 @@ const SecHeader = ({ Logo, dropdownItem, MenuInfo }) => {
                
               </div>
             </li>
+            
             {MenuInfo &&
               MenuInfo.map((item, key) => (
                 <li className="nav-item" key={key}>
@@ -81,6 +82,7 @@ const SecHeader = ({ Logo, dropdownItem, MenuInfo }) => {
                   </a>
                 </li>
               ))}
+              
             <li className="lh-55px">
               
               <a className="btn login-btn ml-50 " onClick={()=>{

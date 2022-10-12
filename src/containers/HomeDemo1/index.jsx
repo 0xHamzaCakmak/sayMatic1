@@ -57,21 +57,19 @@ const HomeDemo1Container = () => {
     },[])
 
     return (
-      <div>
+      <div >
         <Header Title="Saymatik" />
         <SecHeroSection
-          ClassSec="hero-section moving section-padding"
-          ClassDiv="col-12 col-lg-5 col-md-12 "
+          ClassSec="hero-section moving section-padding "
+          ClassDiv="col-6 col-lg-6 col-md-12 "
            specialHead="" 
           title="SAYMATIK"
           link1={t("get_started")}
           link2={t("log_in")} 
           link3="Log in" 
-
           img={HomeDemo1Platform1}
         />
-        
-        
+      
         <div className="clearfix" />
         <SecAbout
           imgDwon={false}

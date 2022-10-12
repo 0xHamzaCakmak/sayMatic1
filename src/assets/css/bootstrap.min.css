@@ -593,6 +593,38 @@ pre code {
     margin-right: auto;
     margin-left: auto
 }
+.cuzdanresim{
+    
+    width:900px;
+    float: right;
+}
+.cuzdanresim2{
+    width: 800px;
+    float: right;
+}
+.btngetlog {
+    float: left;
+}
+.downloadimg{
+    border-radius: 10px;
+}
+.containerApp{
+    float: left;
+    width: 750px;
+    grid-column-gap: 12px;
+    grid-row-gap: 15px;
+    margin: 110px auto;
+    
+    display: grid;
+    
+    grid-template-columns: 200px 200px 200px 200px;
+    
+  }
+  .item-1{
+    height: 140px;
+   
+  }
+  
 
 @media (min-width:576px) {
     .container {

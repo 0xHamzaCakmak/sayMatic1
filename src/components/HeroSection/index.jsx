@@ -1,5 +1,8 @@
 import { useTranslation } from "react-i18next";
-
+import androidapk from "../../assets/img/app-img/androidapk.png";
+import apple from "../../assets/img/app-img/apple.png";
+import galaxystore from "../../assets/img/app-img/galaxystore.png";
+import googleplay from "../../assets/img/app-img/googleplay.png";
 const SecHeroSection = ({
       ClassSec="",
       ClassDiv="",
@@ -15,32 +18,50 @@ const SecHeroSection = ({
       const { t } = useTranslation();
      // {t("Saymatik")}
   return (
-    <section className={ClassSec} id="home">
-      <div className="hero-section-content">
-        <div className="container ">
-          <div className="row align-items-center">
-            <div className={ClassDiv}>
-              <div className="welcome-content">
-                <div className="promo-section">
+    <section className={ClassSec} id="home" class="cuzdanresim2">
+      <div className="hero-section-content ">
+        <div className="container   ">
+          <div className="row align-items-center " >
+            <div className={ClassDiv} >
+              <div className="welcome-content cuzdanresim ">
+                <div className="promo-section  ">
                 </div>
                 
                 <h1>{t("Saymatik")}</h1>
                 <p className="w-text fadeInUp" data-wow-delay="0.3s"> {t("you_can_store")} </p>
                 <div className="dream-btn-group fadeInUp" data-wow-delay="0.4s">
-                  <a href="#" className="btn more-btn mr-3">{link1}</a>
-                  <a href="#" className="btn more-btn mr-3">{link2}</a>
+                  <a href="#" className="btn more-btn mr-3 btngetlog">{link1}</a>
+                  <a href="#" className="btn more-btn mr-3 btngetlog">{link2}</a>
 
 
-                 {/*  <div>
-                    Containerler eklenecek. kripto adı ve fiyat bilgisi 
-                    <button>sdsds</button>
-                    <button>sdsds</button>
-                  </div> */}
+                  <div className="containerApp">
+                    <div >
+                      <a href="">  
+                      <img src={apple} className="downloadimg"/>
+                      </a>
+                    </div>
+                    <div >
+                    <a href="">  
+                      <img src={androidapk} className="downloadimg"/>
+                      </a>
+                    </div>
+                    <div >
+                    <a href="https://play.google.com/store/apps/details?id=com.scimatic.saymatik">  
+                      <img src={googleplay} className="downloadimg"/>
+                      </a>
+                    </div>
+                    <div>
+                    <a href="https://galaxystore.samsung.com/detail/com.scimatic.saymatik">  
+                      <img src={galaxystore} className="downloadimg"/>
+                      </a>
+                    </div>
+                    
+                  </div>
                   <div>
                    
 
                   </div>
-                 {/*  <a href="#" className="btn more-btn">{link2}</a> */}
+                 
                 </div>
               </div>
             </div>
@@ -62,182 +83,3 @@ const SecHeroSection = ({
 }
 
 export default SecHeroSection;
-
-
-    // <>
-    //   {HomeDemo1 && (
-    //     <section className={"hero-section moving section-padding"} id="home">
-    //       <div className="moving-bg" />
-    //       <div className="hero-section-content">
-    //         <div className="container ">
-    //           <div className="row align-items-center">
-    //             <div className={"col-12 col-lg-5 col-md-12"}>
-    //               <div className="welcome-content">
-    //                 <div className="promo-section">
-    //                   <h3 className="special-head dark">{specialHead}</h3>
-    //                 </div>
-    //                 <h1 className="" data-aos-delay="200">{title}</h1>
-    //                 <p className="w-text " data-aos-delay="300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolorem blanditiis ad perferendis, labore delectus dolor sit amet, adipisicing elit. Eveniet.</p>
-    //                 <div className="dream-btn-group " data-aos-delay="400">
-    //                   <a href="#" className="btn more-btn mr-3">{link1}</a>
-    //                   <a href="#" className="btn more-btn">{link2}</a>
-    //                 </div>
-    //               </div>
-    //             </div>
-    //             <div className="col-lg-6">
-    //               <div className="dotted mt-30 " data-aos-delay="500">
-    //                 <img draggable="false" src={img} alt="" />
-    //               </div>
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </section>
-    //   )}
-
-    //   {HomeDemo2 && (
-    //     <section className="hero-section app section-padding" id="home">
-    //       <div className="hero-section-content">
-    //         <div className="container">
-    //           <div className="row align-items-center">
-    //             <div className="col-12 col-lg-7 col-md-12">
-    //               <div className="welcome-content">
-    //                 <div className="promo-section">
-    //                   <h3 className="special-head dark">{specialHead}</h3>
-    //                 </div>
-    //                 <h1>{title}</h1>
-    //                 <p className="w-text">We have over 15 year exprience in business consultting arena. We have over 15 year exprience in business consultting arena and artficial intelligence.</p>
-    //                 <div className="dream-btn-group">
-    //                   <a href="#" className="btn more-btn mr-3">{link1}</a>
-    //                   <a href="#" className="btn more-btn">{link2}</a>
-    //                 </div>
-    //               </div>
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </section>
-    //   )}
-
-    //   {HomeDemo3 && (
-    //     <section className="hero-section de-3 section-padding" id="home">
-    //       <div className="hero-section-content">
-    //         <div className="container">
-    //           <div className="row align-items-center">
-    //             <div className="col-12 col-lg-5 col-md-12">
-    //               <div className="welcome-content">
-    //                 <div className="promo-section">
-    //                   <h3 className="special-head dark">{specialHead}</h3>
-    //                 </div>
-    //                 <h1>{title}</h1>
-    //                 <p className="w-text fadeInUp" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolorem blanditiis ad perferendis, labore delectus dolor sit amet, adipisicing elit. Eveniet.</p>
-    //                 <div className="dream-btn-group fadeInUp" data-wow-delay="0.4s">
-    //                   <a href="#" className="btn more-btn mr-3">{link1}</a>
-    //                   <a href="#" className="btn more-btn">{link2}</a>
-    //                 </div>
-    //               </div>
-    //             </div>
-    //             <div className="col-lg-6">
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </section>
-    //   )}
-
-    //   {HomeDemo4 && (
-
-    //     <section className={ClassSec} id="home">
-    //       <div className="hero-section-content">
-    //         <div className="container ">
-    //           <div className="row align-items-center">
-    //             <div className={ClassDiv}>
-    //               <div className="welcome-content">
-    //                 <div className="promo-section">
-    //                   <h3 className="special-head dark">{specialHead}</h3>
-    //                 </div>
-    //                 <h1>{title}</h1>
-    //                 <p className="w-text fadeInUp" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolorem blanditiis ad perferendis, labore delectus dolor sit amet, adipisicing elit. Eveniet.</p>
-    //                 <div className="dream-btn-group fadeInUp" data-wow-delay="0.4s">
-    //                   <a href="#" className="btn more-btn mr-3">{link1}</a>
-    //                   <a href="#" className="btn more-btn">{link2}</a>
-    //                 </div>
-    //               </div>
-    //             </div>
-    //             {HomeDemo1Or3Or4Or5Or6 && (
-    //               <div className="col-lg-6">
-    //                 {HomeDemo1Or4Or5Or6 && (
-    //                   <div className="illusto-2">
-    //                     <img draggable="false" draggable="false" src={img} alt="" />
-    //                   </div>
-    //                 )}
-    //               </div>
-    //             )}
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </section>
-
-    //   )}
-
-    //   {HomeDemo5 && (
-
-    //     <section className="hero-section moving-2 section-padding" id="home">
-    //       <div className="hero-section-content">
-    //         <div className="container ">
-    //           <div className="row align-items-center">
-    //             <div className="col-12 col-lg-6 col-md-12">
-    //               <div className="welcome-content">
-    //                 <div className="promo-section">
-    //                   <h3 className="special-head dark">{specialHead}</h3>
-    //                 </div>
-    //                 <h1>{title}</h1>
-    //                 <p className="w-text fadeInUp" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolorem blanditiis ad perferendis, labore delectus dolor sit amet, adipisicing elit. Eveniet.</p>
-    //                 <div className="dream-btn-group fadeInUp" data-wow-delay="0.4s">
-    //                   <a href="#" className="btn more-btn mr-3">{link1}</a>
-    //                   <a href="#" className="btn more-btn">{link2}</a>
-    //                 </div>
-    //               </div>
-    //             </div>
-    //             <div className="col-lg-6">
-    //               <div className="illusto-1 mt-30 fadeInUp" data-wow-delay="0.5s">
-    //                 <img draggable="false" draggable="false" src="img/core-img/hero-img.png" alt="" />
-    //               </div>
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </section>
-    //   )}
-
-    //   {HomeDemo6 && (
-
-    //     <section className="hero-section moving section-padding" id="home">
-    //       <div className="hero-section-content">
-    //         <div className="container ">
-    //           <div className="row align-items-center">
-    //             <div className="col-12 col-lg-6 col-md-12">
-    //               <div className="welcome-content">
-    //                 <div className="promo-section">
-    //                   <h3 className="special-head dark">{specialHead}</h3>
-    //                 </div>
-    //                 <h1>{title}</h1>
-    //                 <p className="w-text fadeInUp" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolorem blanditiis ad perferendis, labore delectus dolor sit amet, adipisicing elit. Eveniet.</p>
-    //                 <div className="dream-btn-group fadeInUp" data-wow-delay="0.4s">
-    //                   <a href="#" className="btn more-btn mr-3">{link1}</a>
-    //                   <a href="#" className="btn more-btn">{link2}</a>
-    //                 </div>
-    //               </div>
-    //             </div>
-    //             <div className="col-lg-6">
-    //               <div className="illusto mt-30 fadeInUp" style={{}} data-wow-delay="0.5s">
-    //                 <img draggable="false" draggable="false" src="img/core-img/about-1.png" alt="" />
-    //               </div>
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </section>
-
-    //   )}
-    // </>

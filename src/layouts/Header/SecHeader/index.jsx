@@ -48,8 +48,8 @@ const SecHeader = ({ Logo, dropdownItem, MenuInfo }) => {
               style={{ width: "20%" }}
             />
           </span>
-          <a href="#" style={{color:"#1b75bb",fontWeight:"bold"}}>Saymatik</a>
-          <a href="#" style={{color:"#f6921e",fontWeight:"bold"}}>.com</a>
+          <a href="#" style={{color:"#1b75bb",fontWeight:"bold"}}>Say</a>
+          <a href="#" style={{color:"#f6921e",fontWeight:"bold"}}>matik</a>
         </a>
         {/* Toggler/collapsibe Button */}
         <button

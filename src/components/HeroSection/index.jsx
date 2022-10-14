@@ -62,11 +62,13 @@ const SecHeroSection = ({
                         <img src={galaxystore} className="downloadimg" />
                       </a>
                     </div>
+
                   </div>
-                <CryptoFiat/>
+                  <CryptoFiat/>
 
                 </div>
               </div>
+
             </div>
             {HomeDemo1Or3Or4Or5Or6 && (
               <div className="col-lg-6 ">
@@ -77,6 +79,7 @@ const SecHeroSection = ({
                 )}
               </div>
             )}
+
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@ import HomeDemo4 from './pages/HomeDemo4'
 import HomeDemo5 from './pages/HomeDemo5'
 import HomeDemo6 from './pages/HomeDemo6'
  
-import giris from './giris'
+import giris from '../src/pages/giris'
 
 import "./layouts/Header/Language/i18nextInit";
 

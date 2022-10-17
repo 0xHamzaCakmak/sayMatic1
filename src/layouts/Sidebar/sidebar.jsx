@@ -29,12 +29,13 @@ function Layout() {
         <Sidebar style={{ width: "1px" }}>
           <Menu>
             <SubMenu label="Decerta">
-              <MenuItem> Pie charts </MenuItem>
-              <MenuItem> Line charts </MenuItem>
+              <MenuItem className="btn"> Certificates </MenuItem>
+              <MenuItem className="btn"> Diploma </MenuItem>
             </SubMenu>
+
             <SubMenu label="DeTamga">
-              <MenuItem> Documentation </MenuItem>
-              <MenuItem> Calendar </MenuItem>
+              <MenuItem className="btn"> My Papers </MenuItem>
+              <MenuItem className="btn"> Editors </MenuItem>
             </SubMenu>
           </Menu>
         </Sidebar>

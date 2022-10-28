@@ -5,7 +5,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import LanguageSelect from "./languageselect";
-import index from '../../../pages/HomeDemo1'
+import index from "../../../pages/HomeDemo1";
 const SecHeader = () => {
   const { t } = useTranslation();
   const [account, setAccount] = useState("");
@@ -51,7 +51,7 @@ const SecHeader = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item dropdown">
-              <a class="nav-link " href="giris">
+              <a class="nav-link " href="giris" onClick={connect}>
                 Wallet
               </a>
             </li>

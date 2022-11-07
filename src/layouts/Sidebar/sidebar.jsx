@@ -19,6 +19,7 @@ function Layout() {
 
   //sertifikalrı getir
   function Certificates() {
+    //const belgeler=decertaContract.benimBelgelerim(account).map((belge)=>belge)
     console.log(decertaContract);
   }
 
@@ -36,7 +37,7 @@ function Layout() {
     console.log("my adres", account);
     //adresime ait dergi saysını döndür...
     const counter = detamgaContract.myJournalsCounter(account);
-    console.log("counter", counter);
+    console.log("counters", counter);
   }
 
   return (

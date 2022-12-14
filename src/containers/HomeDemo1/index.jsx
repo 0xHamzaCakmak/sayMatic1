@@ -49,6 +49,9 @@ import SecTrust from './SecTrust'
 import OurServices from "./OurServices"
 import OurPlatform from "./OurPlatform"
 import { useTranslation } from "react-i18next";
+
+import Slider from "../../layouts/Sliders/Slider";
+//slider import edilecek
 const HomeDemo1Container = () => {
   const { t } = useTranslation();
 
@@ -71,6 +74,7 @@ const HomeDemo1Container = () => {
         />
       
         <div className="clearfix" />
+        <Slider/>
         <SecAbout
           imgDwon={false}
           title="Hakkımızda"

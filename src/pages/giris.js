@@ -16,7 +16,6 @@ const giris = () => {
       <div className="row">
         <ProSidebarProvider>
           <SecHeader />
-          <Sidebar/>
           <Metamask/>
         </ProSidebarProvider>
         

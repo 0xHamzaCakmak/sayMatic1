@@ -1,10 +1,8 @@
 .item{
     min-height: 40rem;
-    min-width: 32rem;
+    min-width: 25rem;
     padding: 40px;
-    height: 50rem;
-    
-    
+    height: 40rem;
 }
 
 .item img{
@@ -15,9 +13,9 @@
 }
 
 .inner-carousel{
-    display: flex;
-    
+    display: flex;  
 }
+
 .carousel {
     cursor: grab;
     overflow: hidden;
